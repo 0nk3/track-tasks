@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Daily Stand Up",
+      "day": "Mon - Fri at 09:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Progress Report",
+      "day": "Mon - Fri at 13:00 pm",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Report",
+      "day": "Mon - Fri at 16:30 pm",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "Meetup LA",
+      "day": "Mon - Fri at 18:00 pm",
+      "reminder": true
+    }
+  ]
+}

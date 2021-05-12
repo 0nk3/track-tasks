@@ -1,6 +1,11 @@
-<form>
+<form (ngSubmit)="onSubmit()">
     <div class="form-control">
-        <label for="text" >Task</label>
-        <input type="text" name="text" id="text" placeholder="Add Task" />
+        <label for="text" autocomplete="off">Task</label>
+        <input type="text" name="text" id="text" [(ngModel)]="text" placeholder="Add Task" />
     </div>
+    <div class="form-control">
+        <label for="day" >Date and Time</label>
+        <input type="text" name="day" id="day" [(ngModel)]="day" placeholder="Date and Time" />
+    </div>
+    <input type="submit" [ngStyle]="{'margin': '5px', 'padding': '11px 7px'}" value="Save Task" class="btn btn-block">
 </form>

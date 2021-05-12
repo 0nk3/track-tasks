@@ -4,25 +4,31 @@
       "id": 1,
       "text": "Daily Stand Up",
       "day": "Mon - Fri at 09:30 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
       "text": "Progress Report",
-      "day": "Mon - Fri at 13:00 pm",
-      "reminder": false
+      "day": "Mon at 13:00 pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Report",
+      "day": "Fri at 16:30 pm",
+      "reminder": true
     },
     {
       "id": 4,
-      "text": "Report",
-      "day": "Mon - Fri at 16:30 pm",
+      "text": "Meetup LA",
+      "day": "Mon - Fri at 18:00 pm",
       "reminder": false
     },
     {
-      "id": 5,
-      "text": "Meetup LA",
-      "day": "Mon - Fri at 18:00 pm",
-      "reminder": true
+      "text": "Dr Appointment",
+      "day": "Friday 13:00 pm",
+      "reminder": false,
+      "id": 5
     }
   ]
 }

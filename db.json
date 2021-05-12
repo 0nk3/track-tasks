@@ -22,7 +22,7 @@
       "id": 4,
       "text": "Meetup LA",
       "day": "Mon - Fri at 18:00 pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }

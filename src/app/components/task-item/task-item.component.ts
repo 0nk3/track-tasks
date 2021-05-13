@@ -18,10 +18,8 @@ export class TaskItemComponent implements OnInit {
   }
   onDelete(task: Task): void {
     this.delete.emit(task);
-    console.log('Completed : ' + task.text);
   }
   onDoubleClick(task: Task): void {
     this.reminder.emit(task);
-    // task.reminder = !task.reminder;
   }
 }
